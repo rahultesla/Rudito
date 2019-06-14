@@ -1,0 +1,3 @@
+Rudito is a turing-complete programming language.
+This project is created by Rahul Tesla.
+Have fun!
