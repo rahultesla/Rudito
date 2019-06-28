@@ -169,22 +169,22 @@ if __name__ == "__main__":
         filename = sys.argv[1]
         if filename[len(filename)-4:len(filename)] != '.rdt':
             print('This is not Rudito file')
-            exit()
-            filee = open(filename,'r')
-            text = filee.read()
-            filee.close()
-            q = code(code=text)
-            try:
-                q.tokenize()
-                q.clean()
-            except:
-                print('invalid syntax')
-                exit()
-            try:
-                q.run()
-            except:
-                print('runtime error')
-                exit()
+            sys.exit()
+        filee = open(filename,'r')
+        text = filee.read()
+        filee.close()
+        q = code(code=text)
+        try:
+            q.tokenize()
+            q.clean()
+        except:
+            print('invalid syntax')
+            sys.exit()
+        try:
+            q.run()
+        except:
+            print('runtime error')
+            sys.exit()
     except:
         print("Rudito 1.0.0 "+str(platform.system())+" "+str(platform.release())+" "+str(platform.architecture()[0]))
         print("Type '|help|','|credits|' for more information")
