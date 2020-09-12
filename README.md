@@ -1,5 +1,6 @@
 # Rudito
 This is a turing-complete programming language which needs different approach to code.
+This programming language is in alpha stage.You can read the compiler code to know it's full functionality 😜.
 
 ## Concept
 This language has Three components
@@ -24,9 +25,9 @@ By default compiler goes to next line if Tail component is missing.<br/>
 
 ## Data Types Supported
 ### Integer
-'''[value:5.0][int:]
 ### Boolean
 ### Float
 ### String
 
 ## Examples
+You can refer primechecker.rdt and evennumber.rdt as example.
