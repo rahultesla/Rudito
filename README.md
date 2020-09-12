@@ -1,6 +1,7 @@
 # Rudito
-This is a turing-complete programming language which needs different approach to code.
-This programming language is in alpha stage.You can read the compiler code to know it's full functionality 😜.
+This is a turing-complete programming language which needs different approach to code.<br/>
+This programming language is in alpha stage.<br/>
+You can read the compiler code to know it's full functionality 😜.<br/>
 
 ## Concept
 This language has Three components
