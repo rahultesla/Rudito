@@ -1,0 +1,4 @@
+/iseven/[output:True(num%2==0)output:False]|return|
+/start/
+[var:'num'][prompt:'enter a number']|ask|
+[value:num]|int|[num:value]|iseven&return|[prompt:'it is even'(output)prompt:'it is odd']|show||end|

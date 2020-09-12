@@ -1,0 +1,10 @@
+
+/start/
+[var:'a'][prompt:'enter a number']|ask|
+[value:a]|int|[a:value][i:2]
+/for/[goto:notprime(a%i==0)goto:next]|goto|
+/next/[i:i+1][goto:prime(i<a)goto:for]|goto|
+/notprime/[prompt:'it is not a prime number']|show||end|
+/prime/[prompt:'it is a prime number']|show||end|
+
+
